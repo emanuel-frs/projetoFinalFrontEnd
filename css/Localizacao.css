@@ -1,11 +1,33 @@
-.barraPrincipal {
-  background-color: #05513d;
-  display:flex;
-  flex-direction: column;
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.barraPrincipal{
+  background-color: #05513D;
+  max-width: 59.375rem;
+  display: block;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
-.imagem{
-  
+.endereço{
+  color: white;
+  display: flex; 
+  justify-content: center;
+  text-align: center;
 }
+
+iframe{ 
+  width: 95vw;
+  max-width: 59.375rem;
+  height: 100vw;
+  max-height: 28.125rem;
+  border:0; 
+  padding: 3%;
+  margin: auto;
+  padding-bottom: -1rem;
+  display: block;
+}
+

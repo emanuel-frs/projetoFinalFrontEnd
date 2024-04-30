@@ -1,0 +1,45 @@
+footer{
+    background: #05513D;
+    height: 9.375rem;
+    color: white;
+    padding-left: 3%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0){
+    footer{
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 370){
+    footer{
+        height: 12rem;
+    }
+}
+
+@media screen and (min-width: 480px){
+    footer{
+        height: 9.375rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    footer{
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    footer{
+        margin-top: 14.65rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    footer{
+        margin-top: 1.5rem;
+    }
+}
