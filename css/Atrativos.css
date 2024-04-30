@@ -63,9 +63,23 @@ main {
     gap: 2rem;
     padding: 0 0 0 5px;
 }
-
+.conteudos p {
+    margin: 10px;
+    padding: 1%;
+}
 .conteudos img{
     width: 220px;
     height: 150px;
-    margin: 5px;
+    margin: 5px 0 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#img{
+    margin-bottom: 15px;
+}
+
+
+ul{
+    
 }

@@ -53,39 +53,77 @@
             </div>
             <h3>O QUE FAZER</h3>
             <div class="oqueFazer">
-                <p onclick="mostrarConteudo('centroVisitantes')"> <strong>CENTRO VISITANTES</strong></p>
-                <p onclick="mostrarConteudo('piscinaLazer')"> <strong>PSICINA E ÁREA DE LAZER</strong></p>
-                <p onclick="mostrarConteudo('trilhas')"> <strong>TRILHAS</strong></p>
+                <p onclick="mostrarConteudo('centroVisitantes')"> <strong>CENTRO VISITANTES</strong>
+                </p>
+                <p onclick="mostrarConteudo('piscinaLazer')"> <strong>PISCINA E ÁREA DE LAZER</strong>
+                </p>
+                <p onclick="mostrarConteudo('trilhas')"> <strong>TRILHAS</strong>
+                </p>
             </div>
 
             <div class="conteudos">
                 <div id="centroVisitantes" class="conteudo mostrar">
-                    <img src="assets/Piscina Natural.jpg" alt="img">
+                    <div>
+                        <img id="img" src="assets/atrativos/Centro de Visitantes.jpg" alt="img">
+                        <img src="assets/atrativos/maquete.png" alt="">
+                    </div>
                     <div>
                         <p><strong>Salão principal / Maquete / Auditório</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque eos temporibus, molestiae dolores architecto hic dolorem sint. Obcaecati autem beatae nostrum dicta voluptate, alias in quibusdam repudiandae nam. Voluptate.</p>
+                        <p>Entre as atrações no salão principal, estão a maquete com animação e áudio explicando as características do Parque e destacando os principais pontos na UC, reproduções de animais e computadores com apresentação multimídia e jogos temáticos e além de exposição permanente da fauna da UC (taxidermizada).
+                        </p>
+                        <p>
+                            Na sala interativa é possível ouvir os cantos de aves e vocalizações de mamíferos ou aprimorar a capacidade de ver os animais na floresta.
+                        </p>
+                        <p>
+                            O Centro de Visitantes conta, ainda, com cafeteria e loja de lembranças, com camisetas bordadas, livros, suprimentos para passeios no Parque e outras lembranças.
+                        </p>
                     </div>
                 </div>
 
                 <div id="piscinaLazer" class="conteudo">
-                    <img src="assets/Complexo_Dedo_de_Deus_Bruno_Nepomuceno.jpg" alt="img">
+                    <div>
+                        <img id="img" src="assets/Piscina Natural.jpg" alt="img">
+                        <img src="assets/Area de Pique Nique.jpg" alt="">
+                    </div>
                     <div>
                         <p><strong>Piscina de Águas Naturais e Área de Piquenique</strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque eos temporibus, molestiae dolores architecto hic dolorem sint. Obcaecati autem beatae nostrum dicta voluptate, alias in quibusdam repudiandae nam. Voluptate.</p>
+                        <p> 
+                            A Piscina de água natural é uma das mais tradicionais atrações do PARNASO. Muito procurada no verão, ela compõe um belo cenário para piqueniques e atividades recreativas no frio inverno da serra.
+                        </p>
+                        <p>
+                            A trilha do Caxinguelê, cortada pelo Rio Paquequer, é um passeio leve e agradável, onde o visitante entra em contato com a natureza. Quem passa o dia no Parque não pode deixar de conhecer os bosques Santa Helena e da Colina, projetados pelo arquiteto e paisagista Ângelo Murgel, com refúgios, muita sombra, mesas e bancos de pedra para piquenique e banheiros.
+                        </p>
                     </div>
                 </div>
 
                 <div id="trilhas" class="conteudo">
-                    <img src="carrossel/cartao_postal.webp" alt="img">
                     <div>
-                        <p><strong></strong></p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque eos temporibus, molestiae dolores architecto hic dolorem sint. Obcaecati autem beatae nostrum dicta voluptate, alias in quibusdam repudiandae nam. Voluptate.</p>
+                        <div>
+                            <img src="assets/atrativos/Estrada da Barragem.jpg" alt="">
+                        </div>
+                        <h5>Estrada da Barragem</h5>
+                        <ul>
+                            <li>Nível de Dificuldade: Leve</li>
+                            <li>Extensão: 3000m</li>
+                            <li>Duração: 2 horas (ida e volta)</li>
+                        </ul>
+                        <p>
+                            Estrada calçada em paralelepípedo com trânsito liberado para automóveis. É a via que dá acesso a todas as trilhas da Sede Teresópolis. <br>
+                            Ideal para caminhadas de lazer, tem extensão de 3 Km e placas indicativas de distância em intervalos de 500m. A estrada conta com vários mirantes, recantos para descanso, duchas e cascatas. <br>
+                            A estrada termina na Praça da Barragem, ponto de captação de água para a cidade de Teresópolis
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
-    <script src="js/script.js"></script>
+    <footer>
+        <p>Horário de funcionamento: <br>
+            Fechado ⋅ Abre ter. às 07:00<br>
+            Administração: Instituto Chico Mendes de Conservação da Biodiversidade<br>
+            Telefone: (61) 2028-9913</p>
+            <img src="./assets/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
+    </footer>
+    <script src="js/atrativos.js"></script>
 </body>
 </html>
