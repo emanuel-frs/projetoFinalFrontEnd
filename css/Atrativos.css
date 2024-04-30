@@ -79,7 +79,18 @@ main {
     margin-bottom: 15px;
 }
 
+.trilha-container{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
 
-ul{
-    
+.info-trilha{
+    flex: 1;
+    padding: 1%;
+}
+
+.conteudos h5{
+    padding: 1%;
+    margin: 1.5%;
 }
