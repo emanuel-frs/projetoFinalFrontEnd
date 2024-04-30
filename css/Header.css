@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    background-color: #D3F1C1;
-}
-
 .cabecalho{
     display: flex;
     flex-direction: column;
@@ -62,6 +56,17 @@ nav a{
 }
 
 @media screen and (min-width: 0){
+    .fotoDeTeste{
+        height: 100px;
+        padding: 3px 6px;
+    }
+    .opcoes{
+        font-size: 9px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 370){
     .fotoDeTeste{
         height: 100px;
         padding: 3px 6px;
