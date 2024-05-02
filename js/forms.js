@@ -19,8 +19,6 @@ form.addEventListener('submit', event => {
 continuarBtn.addEventListener('click', async function(event){
     event.preventDefault();
     await sendFormToApi(data);
-    console.log(sendFormToApi(data))
-
     window.location.href = "Atrativos.html?success=true";
 });
 
