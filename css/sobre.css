@@ -45,14 +45,19 @@
     width: 30%;
 }
 
+main {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 .perfilLido > strong{
     color: whitesmoke;
 }
 
 .textoPrincipal{
     font-family: "IBM Plex Mono", monospace;
-    color: #ffffff; 
-    text-align: center; 
+    color: #ffffff;
+    text-align: center;
     margin: 1.35rem;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
