@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barrinhaVerde{
+    background-color: #1F372C;
+    height: 30px;
+    width: 100%;
+}
+
+.navibar{
+    background-color: #1F372C;
+    margin-top: 20px;
+    height: 100%;
+    max-height: 60px;
+    width: 100%;
+    max-width: 950px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: .3125rem;
+}
+
+.opcoes{
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+header img{
+    width: 100%;
+    max-width: 950px;
+}
+
+nav a{
+    padding-left: 18px;
+    text-decoration: none;
+}
+
+.dedo-de-deus {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.529);
+}
+
+.opcoes:hover{
+    color: #000000;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.418);
+
+}
+
+@media screen and (min-width: 0){
+    .fotoDeTeste{
+        height: 100px;
+        padding: 3px 6px;
+    }
+    .opcoes{
+        font-size: 9px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 370){
+    .fotoDeTeste{
+        height: 100px;
+        padding: 3px 6px;
+    }
+    .opcoes{
+        font-size: 9px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .fotoDeTeste{
+        height: 130px;
+        padding: 6px 12px;
+    }
+    .opcoes{
+        font-size: 11px;
+        margin-left:11%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .fotoDeTeste{
+        height: 150px;
+        padding: 8px 16px;
+    }
+    .opcoes{
+        font-size: 14px;
+        margin-left: 11%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .fotoDeTeste{
+        height: 200px;
+        padding: 10px 20px;
+    }
+    .opcoes{
+        font-size: 17px;
+        margin-left:11%;
+    }
+}
