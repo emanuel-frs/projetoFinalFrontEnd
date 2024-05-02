@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.perfil{
+    margin: auto;
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #000000;
+    width: 210px;
+    padding: 5px;
+}
+
+.gitPerfil{
+    border-radius: 15px;
+    color: white;
+    background-color: #161E20;
+    width: 200px;
+    padding: 10px;
+}
+
+.perfilLido{
+    color: #11cc75;
+    width: 200px;
+    padding: 10px;
+}
+
+.linkGit{
+    margin: 0 auto;
+    background-color: #1b8d58;
+    border: 0;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-bottom: 4px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.25rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.perfilLido > strong{
+    color: whitesmoke;
+}
+
+.textoPrincipal{
+    font-family: "IBM Plex Mono", monospace;
+    color: #ffffff; 
+    text-align: center; 
+    margin: 1.35rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.linkGit:hover{
+    background-color: #1F372C;
+}
+
+@media screen and (min-width: 1280px){
+    .perfil{
+        margin: 0 2.4rem 2.4rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .perfil{
+        margin: 0 2.4rem 2.4rem 2rem;
+    }
+}
+
+
