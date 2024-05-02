@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/Header.css">
+    <link rel="stylesheet" href="/css/footers/FooterM.css">
+    <link rel="stylesheet" href="/css/Forms.css">
+    <link rel="shortcut icon" href="/favicons/favicon-16x16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>TurisTerê</title>
+</head>
+<body style="background-image: url(/assets/image.png); background-size: cover;">
+    <header class="cabecalho">
+        <div class="barrinhaVerde"></div>
+        <nav class="navibar">
+            <a href="/templates/Menu.html" class="opcoes">INICIO</a>
+            <a href="/templates/Atrativos.html" class="opcoes">ATRATIVOS</a>
+            <a href="/templates/Localizacao.html" class="opcoes">LOCALIZAÇÃO</a>
+            <a href="/templates/Sobre.html" class="opcoes">SOBRE NÓS</a>
+        </nav>
+        <img src="/assets/PARQUE NACIONAL (1).png" alt="dedo-de-deus" class="dedo-de-deus">
+    </header>
+        <main>
+            <form action="" id="form">
+                <h4>Formulário de Agendamento</h4>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Opcão" id="pernoiteCamping" value="Pernoite Camping Jaguatirica">
+                            <label class="form-check-label" for="pernoiteCamping">
+                                Pernoite camping jaguatirica
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Opcão" id="trilhaPedraSino" value="Trilha da Pedra do Sino" checked>
+                            <label class="form-check-label" for="trilhaPedraSino">
+                                Trilha da Pedra do Sino
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="nome">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="Nome" required>
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" id="sobrenome" name="Sobrenome" required>
+                    </div>
+                </div>
+
+                <label>Endereço:</label>
+                 <div class="endereco">
+                    <input type="text" id="rua" name="Rua" placeholder="Rua" required>
+                     <input type="text" id="numero" name="Numero" placeholder="Número" required>
+                 </div>
+                <div class="endereco">
+                    <input type="text" id="bairro" name="Bairro" placeholder="Bairro" required>
+                     <input type="text" id="cidade" name="Cidade" placeholder="Cidade" required>
+                 </div>
+
+                <label>Data do Agendamento:</label>
+                <input type="date" id="dataPasseio" name="Data Passeio" required>
+
+                <label>Contato:</label>
+                 <div class="contato">
+                    <input type="email" id="email" name="Email" placeholder="Email" required>
+                    <input type="tel" id="telefone" name="Telefone" placeholder="Telefone" required>
+                </div>
+                <button type="submit" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+            </form>
+
+            <div class="modal" id="myModal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Dados corretos?</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p id="modalContent"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                      <button type="click" class="btn btn-primary" id="save-btn">Continuar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Horário de funcionamento: <br>
+                Fechado ⋅ Abre ter. às 07:00<br>
+                Administração: Instituto Chico Mendes de Conservação da Biodiversidade<br>
+                Telefone: (61) 2028-9913</p>
+                <img src="/assets/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
+        </footer>
+        <script src="/js/forms.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
