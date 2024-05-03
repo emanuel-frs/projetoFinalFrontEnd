@@ -1,9 +1,3 @@
-main {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 950px;
-}
-
 #nightModeCheckbox{
     background-color: #7CBF9F;
 }
@@ -107,6 +101,12 @@ main {
 .conteudos h5{
     padding: 1%;
     margin: 1.5%;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 950px;
 }
 
 @media screen and (max-width: 520px){

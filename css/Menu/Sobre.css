@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .fundo{
-    background-image: url('/assets/fundo/fundodark.png');
+    background-image: url('/assets/fundo/fundo-sobre.png');
     background-size: cover;
 }
 
@@ -51,11 +51,6 @@
     width: 30%;
 }
 
-main {
-    max-width: 950px;
-    margin: 0 auto;
-}
-
 .perfilLido > strong{
     color: whitesmoke;
 }
@@ -69,7 +64,12 @@ main {
 }
 
 .linkGit:hover{
-    background-color: #1F372C;
+    background-color: rgb(37, 70, 67);
+}
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 .container:hover > :not(:hover) {

@@ -23,12 +23,6 @@
     background-color: #05513D; 
 }
 
-main {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 950px;
-}
-
 .container{
     padding: 2%;
     margin-top: 2%;
@@ -43,6 +37,12 @@ main {
 
 .fotoDeTeste{
     float: left;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 950px;
 }
 
 @media screen and (min-width: 0){

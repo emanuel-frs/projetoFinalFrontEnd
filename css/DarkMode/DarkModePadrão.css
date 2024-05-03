@@ -15,15 +15,15 @@
     .fundo{
         background-image: url(/assets/fundo/fundodark.png);
     }
-    footer{
-        background-color: #0D1616;
-    }
     .navibar{
         box-shadow: none;
         background-color: #0D1616;
     }
     .barrinhaVerde{
         box-shadow: none;
+        background-color: #0D1616;
+    }
+    footer{
         background-color: #0D1616;
     }
 }

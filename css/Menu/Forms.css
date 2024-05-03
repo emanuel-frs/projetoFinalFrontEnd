@@ -1,3 +1,17 @@
+.fundo{
+    background-image: url('/assets/fundo/fundolight.png'); 
+    background-size: cover;
+    width: 100%;
+}
+
+#nightModeCheckbox{
+    background-color: #7CBF9F;
+}
+
+#labelDarkMode{
+    color: #7CBF9F;
+}
+
 form {
     background-color: #fff;
     width: 100%;
@@ -54,10 +68,4 @@ form button {
 
 form button:hover {
     background-color: #45a049;
-}
-
-.fundo{
-    background-image: url('/assets/fundo/fundolight.png'); 
-    background-size: cover;
-    width: 100%;
 }
