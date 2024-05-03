@@ -1,3 +1,4 @@
+
 footer{
     background: #05513D;
     height: 9.375rem;
@@ -11,6 +12,7 @@ footer{
 @media screen and (min-width: 0){
     footer{
         height: 15rem;
+        margin-top: 1rem;
     }
 }
 
@@ -26,20 +28,20 @@ footer{
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1024px){
     footer{
-        margin-top: 10rem;
+        margin-top: 7.29rem;
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-height: 600px){
     footer{
-        margin-top: 14.65rem;
+        margin-top: 1.2rem;
     }
 }
 
 @media screen and (min-width: 1280px){
     footer{
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
     }
 }

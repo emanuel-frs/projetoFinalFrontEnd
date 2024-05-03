@@ -11,7 +11,7 @@ footer{
 
 @media screen and (min-width: 0){
     footer{
-        height: 15rem;
+        height: 15.5rem;
     }
 }
 
@@ -30,25 +30,37 @@ footer{
 
 @media screen and (min-width: 768px){
     footer{
-        margin-top: 2.75rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 820px){
+    footer{
+        margin-top: 6.7rem;
     }
 }
 
 @media screen and (min-width: 850px){
     footer{
-        margin-top: 10rem;
+        margin-top: 12.6rem;
     }
 }
 
 @media screen and (min-width: 910px){
     footer{
-        margin-top: 15rem;
+        margin-top: 17.5rem;
     }
 }
 
 @media screen and (min-width: 1024px){
     footer{
-        margin-top: 13.74rem;
+        margin-top: 16.6rem;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 600px){
+    footer{
+        margin-top: 1.2rem;
     }
 }
 

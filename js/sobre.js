@@ -49,11 +49,11 @@ const dados = [
     {
         imgSrc: "/assets/sobre/perfilGiovanne.png",
         nome: "Giovanne M.",
-        github: "GiovanneMH",
+        github: "GiovanneMHol",
         programador: "Sênior",
         idade: 20,
         linguagem: "JavaScript",
-        linkGitHub: "https://github.com/"
+        linkGitHub: "https://github.com/GiovanneMoreiraHol"
     }
 ];
 
