@@ -1,0 +1,16 @@
+.night-mode{
+    .conteudos{
+        background-color: #21363B;
+    }
+    .ingressos{
+        background-color: #21363B;
+        color: white;
+    }
+    .carousel-item{
+        background-color: #0D1616;
+    }
+    .container{
+        background-color: #12292F;
+        color: rgb(255, 255, 255);
+    }
+}

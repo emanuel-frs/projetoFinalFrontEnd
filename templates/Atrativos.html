@@ -5,260 +5,270 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Atrativos.css">
     <link rel="stylesheet" href="/css/Header.css">
+    <link rel="stylesheet" href="/css/DarkModePadrão.css">
+    <link rel="stylesheet" href="/css/DarkModeAtrativos.css">
     <link rel="stylesheet" href="/css/footers/FooterAtrativos.css">
     <link rel="shortcut icon" href="/favicons/favicon-16x16.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>TurisTerê</title>
 </head>
-<body style="background-image: url(/assets/image.png); background-size: cover;">
-    <header class="cabecalho">
-        <div class="barrinhaVerde"></div>
-        <nav class="navibar">
-            <a href="/templates/Inicio.html" class="opcoes">INÍCIO</a>
-            <a href="/templates/Atrativos.html" class="opcoes">ATRATIVOS</a>
-            <a href="/templates/Localizacao.html" class="opcoes">LOCALIZAÇÃO</a>
-            <a href="/templates/Sobre.html" class="opcoes">SOBRE NÓS</a>
-        </nav>
-        <img src="/assets/PARQUE NACIONAL (1).png" alt="dedo-de-deus" class="dedo-de-deus">
-    </header>
-    <main>
-        <div class="container">
-            <h3>INGRESSOS</h3>
-            <div class="ingressos">
-                <p>
-                    O ingresso do <strong>PARNASO</strong> passou a ser <strong>gratuito</strong>, respeitando-se o limite diário correspondente às mesmas e o <strong>controle de público é dado por ordem de chegada. Atingida a lotação máxima, os portões serão fechados e não serão reabertos</strong>
-                </p>
-                <p>
-                    <strong>Para acesso ao parque a identificação individual é obrigatória (CPF acompanhado de documento com foto - RG, CNH ou passaporte).
-
-                    Permitida entrada com alimentos e bebidas não alcoólicas.
-                    NÃO é permitida a entrada de animais domésticos.
-                    Proibido churrasco, fogueira, aparelhos sonoros, garrafas e copos de vidro e uso de entorpecentes.
-                    </strong>
-                </p>
-                <ul>
-                    <li>
-                        <span style="text-decoration: underline;">Parte baixa</span> = 1000 pessoas/dia
-                        - Bosques, cachoeiras, Poços do Castelo; 2 Irmãos; Ceci e Peri; Beija-Flor. Trilhas do Circuito Juçara; Mozart Catão; 360; Cartão Postal e Suspensa (Trilha Sunspensa - interditada)
-                        - Para pernoite em camping Jaguatirica é necessário o agendamento - <a href="./Forms.html">clique aqui</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <span style="text-decoration: underline;">Parte alta</span> = 100 pessoas/dia para bate e volta
-                        - Atrativos com acesso pela trilha da Pedra do Sino - é recomendável o uso do Kit Dejetos
-                        - Para pernoite em camping do Sino (abrigo não disponível) é necessário o agendamento - <a href="./Forms.html">clique aqui</a>
-                    </li>
-                </ul>
-            </div>
-            <h3>O QUE FAZER</h3>
-            <div class="oqueFazer">
-                <p onclick="mostrarConteudo('centroVisitantes')"> <strong>CENTRO VISITANTES</strong>
-                </p>
-                <p onclick="mostrarConteudo('piscinaLazer')"> <strong>PISCINA E ÁREA DE LAZER</strong>
-                </p>
-                <p onclick="mostrarConteudo('trilhas')"> <strong>TRILHAS</strong>
-                </p>
-            </div>
-
-            <div class="conteudos">
-                <div id="centroVisitantes" class="conteudo mostrar">
-                    <div>
-                        <img id="img" src="/assets/atrativos/Centro de Visitantes.jpg" alt="img">
-                        <img src="/assets/atrativos/maquete.png" alt="">
-                    </div>
-                    <div>
-                        <h5>Salão principal / Maquete / Auditório</h5>
-                        <p>Entre as atrações no salão principal, estão a maquete com animação e áudio explicando as características do Parque e destacando os principais pontos na UC, reproduções de animais e computadores com apresentação multimídia e jogos temáticos e além de exposição permanente da fauna da UC (taxidermizada).
-                        </p>
-                        <p>
-                            Na sala interativa é possível ouvir os cantos de aves e vocalizações de mamíferos ou aprimorar a capacidade de ver os animais na floresta.
-                        </p>
-                        <p>
-                            O Centro de Visitantes conta, ainda, com cafeteria e loja de lembranças, com camisetas bordadas, livros, suprimentos para passeios no Parque e outras lembranças.
-                        </p>
-                    </div>
-                </div>
-
-                <div id="piscinaLazer" class="conteudo">
-                    <div>
-                        <img id="img" src="/assets/Piscina Natural.jpg" alt="img">
-                        <img src="/assets/Area de Pique Nique.jpg" alt="">
-                    </div>
-                    <div>
-                        <h5>Piscina de Águas Naturais e Área de Piquenique</h5>
-                        <p>
-                            A Piscina de água natural é uma das mais tradicionais atrações do PARNASO. Muito procurada no verão, ela compõe um belo cenário para piqueniques e atividades recreativas no frio inverno da serra.
-                        </p>
-                        <p>
-                            A trilha do Caxinguelê, cortada pelo Rio Paquequer, é um passeio leve e agradável, onde o visitante entra em contato com a natureza. Quem passa o dia no Parque não pode deixar de conhecer os bosques Santa Helena e da Colina, projetados pelo arquiteto e paisagista Ângelo Murgel, com refúgios, muita sombra, mesas e bancos de pedra para piquenique e banheiros.
-                        </p>
-                    </div>
-                </div>
-
-                <div id="trilhas" class="conteudo">
-                    <div>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Estrada da Barragem.jpg" alt="">
-                                <img src="/assets/atrativos/Barragem.jpg" alt="">
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Estrada da Barragem</h5>
-                                <ul>
-                                    <li>Nível de Dificuldade: Leve</li>
-                                    <li>Extensão: 3000m</li>
-                                    <li>Duração: 2 horas (ida e volta)</li>
-                                </ul>
-                                <p>
-                                    Estrada calçada em paralelepípedo com trânsito liberado para automóveis. É a via que dá acesso a todas as trilhas da Sede Teresópolis.
-                                </p>
-                                <p>
-                                    Ideal para caminhadas de lazer, tem extensão de 3 Km e placas indicativas de distância em intervalos de 500m. A estrada conta com vários mirantes, recantos para descanso, duchas e cascatas.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Trilha Suspensa.jpg" alt="trilha suspensa">
-                                <img id="img" src="/assets/atrativos/trilha suspensa2.png" alt="trilha suspensa" style="height: 290px;">
-
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Trilha Suspensa</h5>
-                                <ul>
-                                    <li>Nivel de Dificuldade: Leve</li>
-                                    <li>Extensão: 1300m</li>
-                                    <li>Duração: 1 hora</li>
-                                </ul>
-                                <p>
-                                    Uma das grandes atrações do PARNASO, a trilha suspensa começa na Praça da Barragem. A trilha possui piso de madeira e corrimão, permitindo acesso até a cadeirantes.
-                                </p>
-                                <p>
-                                    Construída sobre um aqueduto do início do século XX, esta trilha corta um trecho de Mata Atlântica em nível elevado em relação ao terreno, permitindo ao visitante uma observação mais próxima da copa das árvores.
-                                </p>
-                                <p>
-                                    A trilha é circular, retornando para a Estrada da Barragem por escadarias. No trecho final a trilha atinge grandes alturas em relação ao solo (até 8 metros) e permite belas visões da floresta e dos paredões do PARNASO.
-                                </p>
-                                <p>
-                                    Uma escada dá acesso a poços do rio Paquequer, ótima opção de banho em dias quentes.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Trilha Primavera.png" alt="">
-                                <img id="img" src="/assets/atrativos/trilha da primavera2.jpg" alt="">
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Trilha Primavera</h5>
-                                <ul>
-                                    <li>Nivel de Dificuldade: Leve</li>
-                                <li>Extensão: 500m</li>
-                                <li>Duração: 15 minutos</li>
-                                </ul>
-                                <p>
-                                    A trilha tem 15 minutos de caminhada leve, para todas as idades.
-                                    O visitante experimenta a sensação de estar em uma mata preservada, sendo possível observar inúmeras espécies.
-                                    Entre elas destaca-se o palmito-juçara (Euterpe edulis), espécie ameaçada de extinção pelo corte indiscriminado.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Trilha Mozart Catão.jpg" alt="">
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Trilha Mozart Catão</h5>
-                                <ul>
-                                    <li>Nivel de Dificuldade: Leve a Moderado</li>
-                                    <li>Extensão: 800m</li>
-                                    <li>Duração: 1 hora e 30 minutos (ida e volta)</li>
-                                </ul>
-                                <p>
-                                    Esta trilha cruza pequenos cursos d'água e floresta de encosta até chegar ao Mirante Alexandre Oliveira (foto acima), com vista para a cidade de Teresópolis e o Parque Estadual dos Três Picos, ao fundo.
-                                    Os nomes da trilha e do mirante homenageiam dois alpinistas da cidade, mortos ao tentar escalar a face sul do Aconcágua, em 1998.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Trilha Cartao Postal.jpeg" alt="">
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Trilha Cartão Postal</h5>
-                                <ul>
-                                    <li>Nivel de Dificuldade: Moderado</li>
-                                    <li>Extensão: 1.200m</li>
-                                    <li>Duração: 2 horas (ida e volta)</li>
-                                </ul>
-                                <p>
-                                    Esta bela trilha, com acesso pela Estrada da Barragem próximo à pousada, cruza área de floresta com belas vistas da montanha e dá acesso a um mirante voltado para a cadeia de montanhas da Serra dos Órgãos, proporcionando ao visitante um novo ângulo de observação do Dedo de Deus do meio da floresta.
-                                    No caminho é possível observar algumas grandes árvores, como o jequitibá.
-                                </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="trilha-container">
-                            <div>
-                                <img id="img" src="/assets/atrativos/Trilha Pedra do Sino.jpg" alt="pedra do sino">
-                                <img id="img" src="/assets/atrativos/pedra-do-sino2.jpg" alt="pedra do sino">
-                                <img id="img" src="/assets/atrativos/Pedra-do-Sino-3.jpg" alt="pedra do sino">
-                            </div>
-                            <div class="trilha-info">
-                                <h5>Trilha da Pedra do Sino</h5>
-                                <ul>
-                                    <li>Nivel de Dificuldade: Moderado a Pesado</li>
-                                    <li>Extensão: Aproximadamente 11 Km</li>
-                                </ul>
-                                <p>
-                                    A Pedra do Sino é o ponto culminante da Serra dos Órgãos com 2.275m e lá do alto a vista alcança toda a Baía de Guanabara, a cidade do Rio de Janeiro e parte do Vale do Paraíba, no lado continental.
-                                    O acesso feito por trilha é um clássico do montanhismo. São cerca de 11 km (cinco a seis horas) de caminhada desde a sede do Parque, em Teresópolis, a 1.100 metros de altitude, até o ponto culminante da serra.
-                                    O primeiro trecho é mais leve, por dentro da mata, com calçamento da época do Império.
-                                    As duas cachoeiras no caminho são boas opções de parada.
-                                    A trilha é acidentada e seu acesso é limitado a 100 pessoas por dia.
-                                    A trilha é também o trecho final da tradicional travessia Petrópolis-Teresópolis.
-                                </p>
-                                <ul style="list-style-type: square">
-                                    <li>Para acessar a Trilha do Sino com atividade em 1 dia, não é necessário o agendamento, basta apresentar o TCRN (preenchido antecipadamento) no centro de Visitantes para autorização.</li>
-                                    <li>Para acessar a Trilha do Sino, com pernoite em camping (abrigo não disponível), é obrigatório realizar a solicitação de agendamento. - <a href="/Forms.html">clique aqui</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+<body>
+    <div class="fundo">
+        <header class="cabecalho">
+            <div class="barrinhaVerde">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="nightModeCheckbox">
+                    <label class="form-check-label" for="nightModeCheckbox" id="labelDarkMode">Dark mode</label>
                 </div>
             </div>
-        </div>
-        <div class="modal" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sucesso!</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <nav class="navibar">
+                <a href="/templates/Inicio.html" class="opcoes">INÍCIO</a>
+                <a href="/templates/Atrativos.html" class="opcoes">ATRATIVOS</a>
+                <a href="/templates/Localizacao.html" class="opcoes">LOCALIZAÇÃO</a>
+                <a href="/templates/Sobre.html" class="opcoes">SOBRE NÓS</a>
+            </nav>
+            <img src="/assets/PARQUE NACIONAL (1).png" alt="dedo-de-deus" class="dedo-de-deus">
+        </header>
+        <main>
+            <div class="container">
+                <h3>INGRESSOS</h3>
+                <div class="ingressos">
+                    <p>
+                        O ingresso do <strong>PARNASO</strong> passou a ser <strong>gratuito</strong>, respeitando-se o limite diário correspondente às mesmas e o <strong>controle de público é dado por ordem de chegada. Atingida a lotação máxima, os portões serão fechados e não serão reabertos</strong>
+                    </p>
+                    <p>
+                        <strong>Para acesso ao parque a identificação individual é obrigatória (CPF acompanhado de documento com foto - RG, CNH ou passaporte).
+
+                        Permitida entrada com alimentos e bebidas não alcoólicas.
+                        NÃO é permitida a entrada de animais domésticos.
+                        Proibido churrasco, fogueira, aparelhos sonoros, garrafas e copos de vidro e uso de entorpecentes.
+                        </strong>
+                    </p>
+                    <ul>
+                        <li>
+                            <span style="text-decoration: underline;">Parte baixa</span> = 1000 pessoas/dia
+                            - Bosques, cachoeiras, Poços do Castelo; 2 Irmãos; Ceci e Peri; Beija-Flor. Trilhas do Circuito Juçara; Mozart Catão; 360; Cartão Postal e Suspensa (Trilha Sunspensa - interditada)
+                            - Para pernoite em camping Jaguatirica é necessário o agendamento - <a href="./Forms.html" class="cliqueAqui">clique aqui</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span style="text-decoration: underline;">Parte alta</span> = 100 pessoas/dia para bate e volta
+                            - Atrativos com acesso pela trilha da Pedra do Sino - é recomendável o uso do Kit Dejetos
+                            - Para pernoite em camping do Sino (abrigo não disponível) é necessário o agendamento - <a href="./Forms.html" class="cliqueAqui">clique aqui</a>
+                        </li>
+                    </ul>
+                </div>
+                <h3>O QUE FAZER</h3>
+                <div class="oqueFazer">
+                    <p onclick="mostrarConteudo('centroVisitantes')"> <strong>CENTRO VISITANTES</strong>
+                    </p>
+                    <p onclick="mostrarConteudo('piscinaLazer')"> <strong>PISCINA E ÁREA DE LAZER</strong>
+                    </p>
+                    <p onclick="mostrarConteudo('trilhas')"> <strong>TRILHAS</strong>
+                    </p>
+                </div>
+
+                <div class="conteudos">
+                    <div id="centroVisitantes" class="conteudo mostrar">
+                        <div>
+                            <img id="img" src="/assets/atrativos/Centro de Visitantes.jpg" alt="img">
+                            <img src="/assets/atrativos/maquete.png" alt="">
+                        </div>
+                        <div>
+                            <h5>Salão principal / Maquete / Auditório</h5>
+                            <p>Entre as atrações no salão principal, estão a maquete com animação e áudio explicando as características do Parque e destacando os principais pontos na UC, reproduções de animais e computadores com apresentação multimídia e jogos temáticos e além de exposição permanente da fauna da UC (taxidermizada).
+                            </p>
+                            <p>
+                                Na sala interativa é possível ouvir os cantos de aves e vocalizações de mamíferos ou aprimorar a capacidade de ver os animais na floresta.
+                            </p>
+                            <p>
+                                O Centro de Visitantes conta, ainda, com cafeteria e loja de lembranças, com camisetas bordadas, livros, suprimentos para passeios no Parque e outras lembranças.
+                            </p>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <p>O agendamento foi feito com sucesso!</p>
+
+                    <div id="piscinaLazer" class="conteudo">
+                        <div>
+                            <img id="img" src="/assets/Piscina Natural.jpg" alt="img">
+                            <img src="/assets/Area de Pique Nique.jpg" alt="">
+                        </div>
+                        <div>
+                            <h5>Piscina de Águas Naturais e Área de Piquenique</h5>
+                            <p>
+                                A Piscina de água natural é uma das mais tradicionais atrações do PARNASO. Muito procurada no verão, ela compõe um belo cenário para piqueniques e atividades recreativas no frio inverno da serra.
+                            </p>
+                            <p>
+                                A trilha do Caxinguelê, cortada pelo Rio Paquequer, é um passeio leve e agradável, onde o visitante entra em contato com a natureza. Quem passa o dia no Parque não pode deixar de conhecer os bosques Santa Helena e da Colina, projetados pelo arquiteto e paisagista Ângelo Murgel, com refúgios, muita sombra, mesas e bancos de pedra para piquenique e banheiros.
+                            </p>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+
+                    <div id="trilhas" class="conteudo">
+                        <div>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Estrada da Barragem.jpg" alt="">
+                                    <img src="/assets/atrativos/Barragem.jpg" alt="">
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Estrada da Barragem</h5>
+                                    <ul>
+                                        <li>Nível de Dificuldade: Leve</li>
+                                        <li>Extensão: 3000m</li>
+                                        <li>Duração: 2 horas (ida e volta)</li>
+                                    </ul>
+                                    <p>
+                                        Estrada calçada em paralelepípedo com trânsito liberado para automóveis. É a via que dá acesso a todas as trilhas da Sede Teresópolis.
+                                    </p>
+                                    <p>
+                                        Ideal para caminhadas de lazer, tem extensão de 3 Km e placas indicativas de distância em intervalos de 500m. A estrada conta com vários mirantes, recantos para descanso, duchas e cascatas.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Trilha Suspensa.jpg" alt="trilha suspensa">
+                                    <img id="img" src="/assets/atrativos/trilha suspensa2.png" alt="trilha suspensa" style="height: 290px;">
+
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Trilha Suspensa</h5>
+                                    <ul>
+                                        <li>Nivel de Dificuldade: Leve</li>
+                                        <li>Extensão: 1300m</li>
+                                        <li>Duração: 1 hora</li>
+                                    </ul>
+                                    <p>
+                                        Uma das grandes atrações do PARNASO, a trilha suspensa começa na Praça da Barragem. A trilha possui piso de madeira e corrimão, permitindo acesso até a cadeirantes.
+                                    </p>
+                                    <p>
+                                        Construída sobre um aqueduto do início do século XX, esta trilha corta um trecho de Mata Atlântica em nível elevado em relação ao terreno, permitindo ao visitante uma observação mais próxima da copa das árvores.
+                                    </p>
+                                    <p>
+                                        A trilha é circular, retornando para a Estrada da Barragem por escadarias. No trecho final a trilha atinge grandes alturas em relação ao solo (até 8 metros) e permite belas visões da floresta e dos paredões do PARNASO.
+                                    </p>
+                                    <p>
+                                        Uma escada dá acesso a poços do rio Paquequer, ótima opção de banho em dias quentes.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Trilha Primavera.png" alt="">
+                                    <img id="img" src="/assets/atrativos/trilha da primavera2.jpg" alt="">
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Trilha Primavera</h5>
+                                    <ul>
+                                        <li>Nivel de Dificuldade: Leve</li>
+                                    <li>Extensão: 500m</li>
+                                    <li>Duração: 15 minutos</li>
+                                    </ul>
+                                    <p>
+                                        A trilha tem 15 minutos de caminhada leve, para todas as idades.
+                                        O visitante experimenta a sensação de estar em uma mata preservada, sendo possível observar inúmeras espécies.
+                                        Entre elas destaca-se o palmito-juçara (Euterpe edulis), espécie ameaçada de extinção pelo corte indiscriminado.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Trilha Mozart Catão.jpg" alt="">
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Trilha Mozart Catão</h5>
+                                    <ul>
+                                        <li>Nivel de Dificuldade: Leve a Moderado</li>
+                                        <li>Extensão: 800m</li>
+                                        <li>Duração: 1 hora e 30 minutos (ida e volta)</li>
+                                    </ul>
+                                    <p>
+                                        Esta trilha cruza pequenos cursos d'água e floresta de encosta até chegar ao Mirante Alexandre Oliveira (foto acima), com vista para a cidade de Teresópolis e o Parque Estadual dos Três Picos, ao fundo.
+                                        Os nomes da trilha e do mirante homenageiam dois alpinistas da cidade, mortos ao tentar escalar a face sul do Aconcágua, em 1998.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Trilha Cartao Postal.jpeg" alt="">
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Trilha Cartão Postal</h5>
+                                    <ul>
+                                        <li>Nivel de Dificuldade: Moderado</li>
+                                        <li>Extensão: 1.200m</li>
+                                        <li>Duração: 2 horas (ida e volta)</li>
+                                    </ul>
+                                    <p>
+                                        Esta bela trilha, com acesso pela Estrada da Barragem próximo à pousada, cruza área de floresta com belas vistas da montanha e dá acesso a um mirante voltado para a cadeia de montanhas da Serra dos Órgãos, proporcionando ao visitante um novo ângulo de observação do Dedo de Deus do meio da floresta.
+                                        No caminho é possível observar algumas grandes árvores, como o jequitibá.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="trilha-container">
+                                <div>
+                                    <img id="img" src="/assets/atrativos/Trilha Pedra do Sino.jpg" alt="pedra do sino">
+                                    <img id="img" src="/assets/atrativos/pedra-do-sino2.jpg" alt="pedra do sino">
+                                    <img id="img" src="/assets/atrativos/Pedra-do-Sino-3.jpg" alt="pedra do sino">
+                                </div>
+                                <div class="trilha-info">
+                                    <h5>Trilha da Pedra do Sino</h5>
+                                    <ul>
+                                        <li>Nivel de Dificuldade: Moderado a Pesado</li>
+                                        <li>Extensão: Aproximadamente 11 Km</li>
+                                    </ul>
+                                    <p>
+                                        A Pedra do Sino é o ponto culminante da Serra dos Órgãos com 2.275m e lá do alto a vista alcança toda a Baía de Guanabara, a cidade do Rio de Janeiro e parte do Vale do Paraíba, no lado continental.
+                                        O acesso feito por trilha é um clássico do montanhismo. São cerca de 11 km (cinco a seis horas) de caminhada desde a sede do Parque, em Teresópolis, a 1.100 metros de altitude, até o ponto culminante da serra.
+                                        O primeiro trecho é mais leve, por dentro da mata, com calçamento da época do Império.
+                                        As duas cachoeiras no caminho são boas opções de parada.
+                                        A trilha é acidentada e seu acesso é limitado a 100 pessoas por dia.
+                                        A trilha é também o trecho final da tradicional travessia Petrópolis-Teresópolis.
+                                    </p>
+                                    <ul style="list-style-type: square">
+                                        <li>Para acessar a Trilha do Sino com atividade em 1 dia, não é necessário o agendamento, basta apresentar o TCRN (preenchido antecipadamento) no centro de Visitantes para autorização.</li>
+                                        <li>Para acessar a Trilha do Sino, com pernoite em camping (abrigo não disponível), é obrigatório realizar a solicitação de agendamento. - <a href="/Forms.html" class="cliqueAqui">clique aqui</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <p>Horário de funcionamento: <br>
-            Fechado ⋅ Abre ter. às 07:00<br>
-            Administração: Instituto Chico Mendes de Conservação da Biodiversidade<br>
-            Telefone: (61) 2028-9913</p>
-            <img src="../assets/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
-    </footer>
-    <script src="/js/atrativos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <div class="modal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sucesso!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>O agendamento foi feito com sucesso!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Horário de funcionamento: <br>
+                Fechado ⋅ Abre ter. às 07:00<br>
+                Administração: Instituto Chico Mendes de Conservação da Biodiversidade<br>
+                Telefone: (61) 2028-9913</p>
+                <img src="../assets/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
+        </footer>
+        <script src="/js/atrativos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="/js/popModal.js"></script>
+        <script src="/js/DarkMode.js"></script>
+    </div>
 </body>
 </html>

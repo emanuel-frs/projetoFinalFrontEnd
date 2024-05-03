@@ -3,6 +3,21 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+#nightModeCheckbox{
+  background-color: #7CBF9F;
+}
+
+#labelDarkMode{
+  color: #7CBF9F;
+}
+
+.fundo{
+  background-image: url('/assets/fundolight.png'); 
+  background-size: cover;
+  width: 100%;
+}
+
 .barraPrincipal{
   background-color: #05513D;
   max-width: 59.375rem;

@@ -1,0 +1,29 @@
+.night-mode{
+    #nightModeCheckbox{
+        background-color: #37545c;
+    }
+    #labelDarkMode{
+        color: white;
+    }
+    .opcoes{
+        text-shadow: none;
+    }
+    .dedo-de-deus{
+        box-shadow: none;
+        filter: saturate(20%) hue-rotate(36deg) contrast(170%)
+    }
+    .fundo{
+        background-image: url(/assets/fundodark.png);
+    }
+    footer{
+        background-color: #0D1616;
+    }
+    .navibar{
+        box-shadow: none;
+        background-color: #0D1616;
+    }
+    .barrinhaVerde{
+        box-shadow: none;
+        background-color: #0D1616;
+    }
+}

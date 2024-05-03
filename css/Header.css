@@ -47,6 +47,7 @@ nav a{
 
 .dedo-de-deus {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.529);
+    background-image: url("/assets/PARQUE NACIONAL (1).png");
 }
 
 .opcoes:hover{
@@ -61,7 +62,7 @@ nav a{
         padding: 3px 6px;
     }
     .opcoes{
-        font-size: 9px;
+        font-size: 8px;
         margin-left: 5%;
     }
 }
@@ -72,7 +73,7 @@ nav a{
         padding: 3px 6px;
     }
     .opcoes{
-        font-size: 9px;
+        font-size: 10px;
         margin-left: 5%;
     }
 }
@@ -83,7 +84,7 @@ nav a{
         padding: 6px 12px;
     }
     .opcoes{
-        font-size: 11px;
+        font-size: 9px;
         margin-left:11%;
     }
 }

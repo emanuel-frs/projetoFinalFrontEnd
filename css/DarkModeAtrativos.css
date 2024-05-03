@@ -1,0 +1,16 @@
+.night-mode{
+    .conteudos{
+        background-color: #21363B;
+        color: white;
+    }
+    .ingressos{
+        background-color: #21363B;
+        color: white;
+    }
+    .container{
+        background-color: #0D1616;
+    }
+    .cliqueAqui{
+        color: #7CBF9F;
+    }
+}
