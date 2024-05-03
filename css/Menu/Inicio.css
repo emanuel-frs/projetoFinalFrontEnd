@@ -7,7 +7,7 @@
 }
 
 .fundo{
-    background-image: url('/assets/fundolight.png'); 
+    background-image: url('/assets/fundo/fundolight.png'); 
     background-size: cover;
     width: 100%;
 }

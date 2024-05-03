@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/Header.css">
+    <link rel="stylesheet" href="/css/Header/Header.css">
     <link rel="stylesheet" href="/css/footers/FooterMenu.css">
-    <link rel="stylesheet" href="/css/Forms.css">
-    <link rel="shortcut icon" href="/favicons/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/Menu/Forms.css">
+    <link rel="stylesheet" href="/css/DarkMode/DarkModePadrão.css">
+    <link rel="stylesheet" href="/css/DarkMode/DarkModeForms.css">
+    <link rel="shortcut icon" href="/assets/favicons/favicon-16x16.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>TurisTerê</title>
 </head>
 <body style="background-image: url(/assets/image.png); background-size: cover;">
-    <header class="cabecalho">
-        <div class="barrinhaVerde"></div>
-        <nav class="navibar">
-            <a href="/templates/Inicio.html" class="opcoes">INÍCIO</a>
-            <a href="/templates/Atrativos.html" class="opcoes">ATRATIVOS</a>
-            <a href="/templates/Localizacao.html" class="opcoes">LOCALIZAÇÃO</a>
-            <a href="/templates/Sobre.html" class="opcoes">SOBRE NÓS</a>
-        </nav>
-        <img src="/assets/PARQUE NACIONAL (1).png" alt="dedo-de-deus" class="dedo-de-deus">
-    </header>
+    <div class="fundo">
+        <header class="cabecalho">
+            <div class="barrinhaVerde">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="nightModeCheckbox">
+                    <label class="form-check-label" for="nightModeCheckbox" id="labelDarkMode">Dark mode</label>
+                </div>
+            </div>
+            <nav class="navibar">
+                <a href="/templates/Inicio.html" class="opcoes">INÍCIO</a>
+                <a href="/templates/Atrativos.html" class="opcoes">ATRATIVOS</a>
+                <a href="/templates/Localizacao.html" class="opcoes">LOCALIZAÇÃO</a>
+                <a href="/templates/Sobre.html" class="opcoes">SOBRE NÓS</a>
+            </nav>
+            <img src="/assets/importantesPadrao/TurisTereLogo.png" alt="dedo-de-deus" class="dedo-de-deus">
+        </header>
         <main>
             <form action="" id="form">
                 <h4>Formulário de Agendamento</h4>
@@ -57,20 +65,20 @@
                 </div>
 
                 <label>Endereço:</label>
-                 <div class="endereco">
+                <div class="endereco">
                     <input type="text" id="rua" name="Rua" placeholder="Rua" required>
-                     <input type="text" id="numero" name="Numero" placeholder="Número" required>
-                 </div>
+                    <input type="text" id="numero" name="Numero" placeholder="Número" required>
+                </div>
                 <div class="endereco">
                     <input type="text" id="bairro" name="Bairro" placeholder="Bairro" required>
-                     <input type="text" id="cidade" name="Cidade" placeholder="Cidade" required>
-                 </div>
+                    <input type="text" id="cidade" name="Cidade" placeholder="Cidade" required>
+                </div>
 
                 <label>Data do Agendamento:</label>
                 <input type="date" id="dataPasseio" name="Data Passeio" required>
 
                 <label>Contato:</label>
-                 <div class="contato">
+                <div class="contato">
                     <input type="email" id="email" name="Email" placeholder="Email" required>
                     <input type="tel" id="telefone" name="Telefone" placeholder="Telefone" required>
                 </div>
@@ -79,19 +87,19 @@
 
             <div class="modal" id="myModal" tabindex="-1">
                 <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title">Dados corretos?</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Dados corretos?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p id="modalContent"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="click" class="btn btn-primary" id="save-btn">Continuar</button>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                      <p id="modalContent"></p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                      <button type="click" class="btn btn-primary" id="save-btn">Continuar</button>
-                    </div>
-                  </div>
                 </div>
             </div>
         </main>
@@ -100,9 +108,11 @@
                 Fechado ⋅ Abre ter. às 07:00<br>
                 Administração: Instituto Chico Mendes de Conservação da Biodiversidade<br>
                 Telefone: (61) 2028-9913</p>
-                <img src="/assets/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
+                <img src="/assets/importantesPadrao/logodedodedeus.png" alt="logo minimalista do dedo de deus" style="height: 10rem; margin-bottom: 10px;">
         </footer>
         <script src="/js/forms.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/DarkMode.js"></script>
+    </div>
 </body>
 </html>

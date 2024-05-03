@@ -13,7 +13,7 @@
         filter: saturate(20%) hue-rotate(36deg) contrast(170%)
     }
     .fundo{
-        background-image: url(/assets/fundodark.png);
+        background-image: url(/assets/fundo/fundodark.png);
     }
     footer{
         background-color: #0D1616;

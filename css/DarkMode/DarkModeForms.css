@@ -1,0 +1,20 @@
+.night-mode{
+    form button:hover {
+        background-color: #12292F;
+    }
+    h4{
+        color: white;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="tel"]{
+        background-color: #12292F;
+        border: #12292F;
+    }
+    form{
+        background-color: #0D1616;
+    }
+    form label{
+        color: #ffffff;
+    }
+}
