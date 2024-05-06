@@ -7,6 +7,8 @@ Navegando pelo site, o usuário é cativado pelos atrativos do Parque e pode for
 
 É possível também verificar a localização do Parque, fotos e breves descrições dos pontos turísticos.
 
+[Projeto no Figma](https://www.figma.com/file/gSXwghjb36bHew7PHbwmid/Untitled?type=design&node-id=0%3A1&mode=design&t=9NMIkUHDFhluxAxf-1)
+
 # Colaboradores
 
 - [Emanuel Fonseca](https://www.linkedin.com/in/emanuel-f-2565181b6/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
@@ -15,10 +17,8 @@ Navegando pelo site, o usuário é cativado pelos atrativos do Parque e pode for
 
 - [João Marcelo Antunes](https://www.linkedin.com/in/joao-marcelo-antunes/)
 
-- [Nicolle Mello](https://www.linkedin.com/in/nimellodev)
+- [Nicolle Mello](https://www.linkedin.com/in/nimello)
 
 - [Bruno Jacomelli](https://www.linkedin.com/in/bruno-jacomelli-80b20818a/)
 
 - [Giovanne Moreira](https://www.linkedin.com/in/giovanne-moreira-1158b3266/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-
-Link Figma: (https://www.figma.com/file/gSXwghjb36bHew7PHbwmid/Untitled?type=design&node-id=0%3A1&mode=design&t=9NMIkUHDFhluxAxf-1)
